@@ -328,13 +328,17 @@ h2.slogan{
 	padding: 0 0 0 20px;
 }
 .progress li span.photoshop{width: 100%;}
-.progress li span.illustrator{width: 70%;}
-.progress li span.indesign{width: 40%;}
+.progress li span.illustrator{width: 90%;}
+.progress li span.js{width: 70%;}
+.progress li span.indesign{width: 60%;}
 .progress li span.flash{width: 80%;}
-.progress li span.html{width: 75%;}
+.progress li span.html{width: 90%;}
 .progress li span.wordpress{width: 85%;}
-.progress li span.jquery{width: 70%;}
-.progress li span.seo{width: 40%;}
+.progress li span.bootstrap{width: 90%;}
+.progress li span.seo{width: 50%;}
+.progress li span.java{width: 40%;}
+.progress li span.cc{width: 50%;}
+.progress li span.c{width: 60%;}
 .plagin_list{
 	width: 100%;
 	overflow: hidden;
@@ -360,7 +364,7 @@ h2.slogan{
 	height: 100%;
 	position: relative;
 }
-.plagin_list li.li_1 a{background: url(../images/icon_ps.png) no-repeat 50% 50% ;}
+.plagin_list li.li_1 a{background: url(../images/icons_canva.png) no-repeat 50% 50% ;}
 .plagin_list li.li_2 a{background: url(../images/icon_ai.png) no-repeat 50% 50% ;}
 .plagin_list li.li_3 a{background: url(../images/icon_ld.png) no-repeat 50% 50% ;}
 .plagin_list li.li_4 a{background: url(../images/icon_fl.png) no-repeat 50% 50% ;}
@@ -505,6 +509,7 @@ transition: all 0.5s ease-in-out;
 	width: 100%;
 	height: auto;
 	display: inline;
+	border-radius: 50%;
 }
 .box_contact{
 	overflow:hidden;
@@ -522,7 +527,7 @@ transition: all 0.5s ease-in-out;
 }
 .box_contact span.email{background: url(../images/icon_email2.png) no-repeat;}
 .box_contact span.phone{background: url(../images/icon_phone.png) no-repeat;}
-.box_contact span.skype{background: url(../images/icon_skype.png) no-repeat;}
+.box_contact span.skype{background: url(../images/icons8-linkedin-50.png) no-repeat;}
 /*footer
  */
 #footer {
@@ -654,52 +659,52 @@ transition: all 0.5s ease-in-out;
 		background-size:51px 38px;
 	}
 	.footer-content .social li.facebook a{
-		background-image: url(../images/icon_fb@x2.png);
-		background-size:20px 38px;
+		background-image: url(../images/icons8-instagram-120.png);
+		background-size:55px 55px;
 	}
 	.footer-content .social li.google a{
-		background-image: url(../images/icon_gl@x2.png);
-		background-size:42px 38px;
+		background-image: url(../images/icons8-linkedin-50.png);
+		background: size 50px 50px;
 	}
 	.footer-content .social li.twitter a{
 		background-image: url(../images/icon_tw@x2.png);
 		background-size:44px 34px;
 	}
 	.footer-content .social li.pinterest a{
-		background-image: url(../images/icon_pn@x2.png);
+		background-image: url(../images/icon_gl@x2.png);
 		background-size:38px 38px;
 	}
 	.plagin_list li.li_1 a{
-		background-image: url(../images/icon_ps@x2.png);
-		background-size:49px 42px;
+		background-image: url(../images/icon-canva.png);
+		background-size:72px 72px;
 	}
 	.plagin_list li.li_2 a{
-		background-image: url(../images/icon_ai@x2.png);
-		background-size:45px 42px;
+		background-image: url(../images/icon_html.png);
+		background-size:55px 52px;
 	}
 	.plagin_list li.li_3 a{
-		background-image: url(../images/icon_ld@x2.png);
-		background-size:40px 43px;
+		background-image: url(../images/icon-js.png);
+		background-size:60px 63px;
 	}
 	.plagin_list li.li_4 a{
-		background-image: url(../images/icon_fl@x2.png);
-		background-size:34px 42px;
+		background-image: url(../images/icon-bootstrap.png);
+		background-size:54px 62px;
 	}
 	.plagin_list li.li_5 a{
-		background-image: url(../images/icon_html@x2.png);
-		background-size:39px 55px;
+		background-image: url(../images/icon-react.png);
+		background-size:79px 75px;
 	}
 	.plagin_list li.li_6 a{
-		background-image: url(../images/icon_wp@x2.png);
-		background-size:55px 55px;
+		background-image: url(../images/icon-java.png);
+		background-size:75px 75px;
 	}
 	.plagin_list li.li_7 a{
-		background-image: url(../images/icon_jq@x2.png);
-		background-size:87px 20px;
+		background-image: url(../images/icon-c.png);
+		background-size:77px 60px;
 	}
 	.plagin_list li.li_8 a{
-		background-image: url(../images/icon_seo@x2.png);
-		background-size:60px 24px;
+		background-image: url(../images/icon-c++.png);
+		background-size:70px 74px;
 	}
 	.box_contact span.email{
 		background-image: url(../images/icon_email2@x2.png);
@@ -710,7 +715,7 @@ transition: all 0.5s ease-in-out;
 		background-size:54px 54px;
 	}
 	.box_contact span.skype{
-		background-image: url(../images/icon_skype@x2.png);
+		background-image: url(../images/icons8-linkedin-50\ \(1\).png);
 		background-size:54px 51px;
 	}
 /* begin add	 */
